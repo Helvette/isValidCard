@@ -11,7 +11,7 @@
 ## Pseudocódigo de nuestro programa.
 
 ```
-Crea un bucle que contenga una petición al usuario y que el resultado dependa de ella{
+Crea un bucle que ejecute su cuerpo una vez antes de analizar las condiciones, debe contener una petición al usuario para que el resultado del bucle dependa de ella{
 	Crear una variable que contenga el prompt con la petición al usuario;
 	Si la respuesta ingresada no es un espacio vacío{
 		Ejecutar la función isValidCard tomando como argumento la respuesta otorgada por el usuario;
@@ -50,5 +50,5 @@ Crea una función isValidCard que compruebe si el número de una tarjeta (ingres
 	Si el residuo de la suma global no es igual a 0{
 		el número de tarjeta es inválido y retorna una alerta de lo sentimos;
 	}
-}```
+}
 
