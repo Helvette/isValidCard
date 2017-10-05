@@ -1,6 +1,11 @@
-## Cifrado César.
+## Algoritmo de Luhn.
 
-##### *Crea una web que pida, por medio de un prompt(), una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado César con el parámetro de desplazamiento de 33 espacios hacia la derecha.*
+##### *Crea una web que pida, por medio de un prompt(), el número de una tarjeta de crédito y confirme su validez según el algoritmo de Luhn.*
+
+
+## Diagrama de flujo de nuestro programa.
+
+![](http://i.picasion.com/resize86/324ec7a75dd9356734eed878e2022ef2.png)
 
 
 ## Pseudocódigo de nuestro programa.
@@ -47,7 +52,3 @@ Crea una función isValidCard que compruebe si el número de una tarjeta (ingres
 	}
 }```
 
-
-## Diagrama de flujo de nuestro programa.
-
-![](http://i.picasion.com/resize86/324ec7a75dd9356734eed878e2022ef2.png)
