@@ -7,8 +7,7 @@ do{
 	}else{
 		alert("Ingrese un número válido, por favor.");
 	}
-} while (answer === "" || answer === " "); /* || si no es número */
-
+} while (answer === "" || answer === " ");
 /* La siguiente función utiliza el algoritmo de Luhn para determinar si el número
 de una tarjeta es válido o no. */
 function isValidCard(numberOfCreditCard){
